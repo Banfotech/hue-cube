@@ -44,6 +44,17 @@ Currently, there are two design variant.
 
 ## How to Build?
 
+### Soldering
+
+#### Manually soldering the LEDs
+First, solder the WS2812B to the PCB, note the corner with the triangle is GND, so this needs to be aligned to the bottom right pad. See the video for detais:
+<a href="https://www.instagram.com/p/BkfG1lynbuw/?taken-by=pauls_3d_things"><img src="Screenshots/41F748A2-C8A6-4B42-98C0-7229394A2D76.jpeg" width="200px" height="200px"></a>
+
+#### SMD soldering the LEDs
+If you have a hot airstation and liquid solder, it is a lot easier to solder the SMD components:
+<a href="https://www.instagram.com/p/BlTWxi_hm6i/?taken-by=pauls_3d_things"><img src="Screenshots/41F748A2-C8A6-4B42-98C0-7229394A2D76.jpeg" width="200px" height="200px"></a>
+
+
 TODO 😅
 
 ## License
