@@ -49,10 +49,14 @@ Currently, there are two design variant.
 #### Manually soldering the LEDs
 First, solder the WS2812B to the PCB, note the corner with the triangle is GND, so this needs to be aligned to the bottom right pad. See the video for detais:
 
+*Video:*
+
 <a href="https://www.instagram.com/p/BkfG1lynbuw/?taken-by=pauls_3d_things"><img src="Screenshots/41F748A2-C8A6-4B42-98C0-7229394A2D76.jpeg" width="200px" height="200px"></a>
 
 #### SMD soldering the LEDs
 If you have a hot airstation and liquid solder, it is a lot easier to solder the SMD components:
+
+*Video:*
 
 <a href="https://www.instagram.com/p/BlTWxi_hm6i/?taken-by=pauls_3d_things"><img src="Screenshots/5471D09A-8F20-4FC6-907B-B518871A67DB.jpeg" width="200px" height="200px"></a>
 
@@ -60,21 +64,35 @@ If you have a hot airstation and liquid solder, it is a lot easier to solder the
 After the LEDs and capacitors, you will need to solder the pins. 
 **Important:** You need to know in advance if you want to build the LiPo version or not, otherwise you will not be able to add the respective pins for the DCDC booster and the LiPo charger module.
 
+*Video:*
+
 <a href="https://www.instagram.com/p/BltJqk9hLH9/?taken-by=pauls_3d_things"><img src="Screenshots/9201AC24-695D-4FFC-8AD1-37AD9C92AF7A.jpeg" width="200px" height="200px"></a>
 
 
 #### Sensor + DigiSpark (USB Version)
 The USB version only requires soldering the top parts
 
+*Video:*
+
 <a href="https://www.instagram.com/p/Bkhx7_AnTCE/?taken-by=pauls_3d_things"><img src="Screenshots/E2C75E9C-0C9D-4288-9EA5-E2F2DC582AC7.jpeg" width="200px" height="200px"></a>
 
 #### DCDC Booster + LiPo Charger
 Note, make sure you have the pins in place. Set the DCDC booster to 5V **before soldering** and **replace the PROG resistor** with a 10k resistor to make sure you only have small charging current of about 120mA.
 
+*Video:*
+
 <a href="https://www.instagram.com/p/Bkh1RgvHO6y/?taken-by=pauls_3d_things"><img src="Screenshots/FF636AE4-1787-40BA-B32A-EDE43D2EBFF4.jpeg" width="200px" height="200px"></a>
 
+#### Switch and Battery Connector
+I think you will figure these out on your own. The square pin hole (PCB rev.8) is GND (black cable), the other 3.7V (red cable). Solder the connector facing to the bottom, i.e. not on the side of the LEDs.
+The switch selects whether the LiPo charger is connected (=OFF or Charging) or the DCDC booster is conencted (=ON). **Never connect the USB while the huecube is on**. I have done it and nothing happened. But it is not designed to work this way.
 
+
+### 3D Printing
 TODO 😅
+
+### Programming
+TODO
 
 ## License
 
