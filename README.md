@@ -56,6 +56,23 @@ If you have a hot airstation and liquid solder, it is a lot easier to solder the
 
 <a href="https://www.instagram.com/p/BlTWxi_hm6i/?taken-by=pauls_3d_things"><img src="Screenshots/5471D09A-8F20-4FC6-907B-B518871A67DB.jpeg" width="200px" height="200px"></a>
 
+#### Pins
+After the LEDs and capacitors, you will need to solder the pins. 
+**Important:** You need to know in advance if you want to build the LiPo version or not, otherwise you will not be able to add the respective pins for the DCDC booster and the LiPo charger module.
+
+<a href="https://www.instagram.com/p/BltJqk9hLH9/?taken-by=pauls_3d_things"><img src="Screenshots/9201AC24-695D-4FFC-8AD1-37AD9C92AF7A.jpeg" width="200px" height="200px"></a>
+
+
+#### Sensor + DigiSpark (USB Version)
+The USB version only requires soldering the top parts
+
+<a href="https://www.instagram.com/p/Bkhx7_AnTCE/?taken-by=pauls_3d_things"><img src="Screenshots/E2C75E9C-0C9D-4288-9EA5-E2F2DC582AC7.jpeg" width="200px" height="200px"></a>
+
+#### DCDC Booster + LiPo Charger
+Note, make sure you have the pins in place. Set the DCDC booster to 5V **before soldering** and **replace the PROG resistor** with a 10k resistor to make sure you only have small charging current of about 120mA.
+
+<a href="https://www.instagram.com/p/Bkh1RgvHO6y/?taken-by=pauls_3d_things"><img src="Screenshots/FF636AE4-1787-40BA-B32A-EDE43D2EBFF4.jpeg" width="200px" height="200px"></a>
+
 
 TODO 😅
 
