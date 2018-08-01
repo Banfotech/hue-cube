@@ -23,7 +23,7 @@ To assemble the board you need to be able to solder SMD components (0603) and a 
     * Circuit Board: <br/><a href="Screenshots/pcb.png"><img src="Screenshots/pcb.png" width="200px"></a>
 - [Arduino IDE](https://www.arduino.cc/), to write the code and flash the device
    * <br/><a href="Screenshots/arduino.png"><img src="Screenshots/arduino.png" width="200px"></a>
-   * The [light_ws2812](https://github.com/cpldcpu/light_ws2812) library to control the LEDs
+   * The [light_ws2812](https://github.com/cpldcpu/light_ws2812) library to control the LEDs. Download the .zip from the `/light_ws2812_Arduino/` folder and place it into `Arduino/libraries/`.
 
 ### Hardware
 The HueCube is made of small, electronic modules that are soldered onto a PCB. You can order the PCB directly from [AISLER](https://aisler.net/p/VAADXKWB), or use the [KiCad](http://kicad-pcb.org/) project files form this repository to modify it.
