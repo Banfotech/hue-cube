@@ -23,6 +23,7 @@ To assemble the board you need to be able to solder SMD components (0603) and a 
     * Circuit Board: <br/><a href="Screenshots/pcb.png"><img src="Screenshots/pcb.png" width="200px"></a>
 - [Arduino IDE](https://www.arduino.cc/), to write the code and flash the device
    * <br/><a href="Screenshots/arduino.png"><img src="Screenshots/arduino.png" width="200px"></a>
+   * The [light_ws2812](https://github.com/cpldcpu/light_ws2812) library to control the LEDs
 
 ### Hardware
 The HueCube is made of small, electronic modules that are soldered onto a PCB. You can order the PCB directly from [AISLER](https://aisler.net/p/VAADXKWB), or use the [KiCad](http://kicad-pcb.org/) project files form this repository to modify it.
@@ -38,7 +39,7 @@ Currently, there are two design variant.
 - LiPo Powered
     * 3D printer files: 1x `BlenderModel/hc-v3-lipo-base.stl` and 1x `BlenderModel/hc-v3-lipo-cube.stl`
     * [1x TP4056 LiPo Charger](https://www.aliexpress.com/item/5Pcs-Lot-TP4056-Micro-USB-5V-1A-18650-Lithium-Battery-Charger-Board-With-Led-Indicator-Over/32675099957.html) **⚠️make sure to replace the PROG resistor⚠️**. The resistor value depends on your LiPo size. When using a 400mA battery, use [1x 10k Ohm 0603](https://www.aliexpress.com/item/300pcs-0603-SMD-Resistor-1-6-8K-7-5K-8-2K-9-1K-10K-ohm/32308220603.html?spm=a2g0s.9042311.0.0.27424c4dsotU5N), this will give you around ~100mA charging current. (or you could search for a kit with multiple values)
-    * [1x MT3608 DC-DC Step Up Converter](https://www.aliexpress.com/item/5pcs-MT3608-DC-DC-Step-Up-Power-Apply-Module-Booster-Power-Module-MAX-output-28V-2A/32517710689.html)
+    * [1x MT3608 DC-DC Step Up Converter](https://www.aliexpress.com/item/5pcs-MT3608-DC-DC-Step-Up-Power-Apply-Module-Booster-Power-Module-MAX-output-28V-2A/32517710689.html) **⚠️set this to 5V output before soldering⚠️**
 
 
 ## How to Build?
